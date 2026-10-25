@@ -1,0 +1,27 @@
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+    int n;
+    cin>>n;
+    for(int i=0;i<=30;i++){
+        int ans=pow(2,i);
+
+        if(ans==n){
+            cout<<true;
+            return 0;
+    
+        }
+    }
+    cout<<false;
+    
+}
+
+// for(int i=0;i<=30;i++){
+//             int ans=pow(2,i);
+
+//             if(ans==n){
+//                 return true;
+//             }
+        
