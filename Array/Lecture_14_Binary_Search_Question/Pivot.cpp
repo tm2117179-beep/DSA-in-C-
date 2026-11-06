@@ -18,7 +18,7 @@ int getpivot(int arr[],int n){
 }
 
 int main() {
-    int arr[5]={3,8,10,17,1};
-    cout<<"Pivot is "<<getpivot(arr,5)<<endl;
+    int arr[6]={8,10,17,18,1,3};
+    cout<<"Pivot is "<<getpivot(arr,6)<<endl;
     
 }
